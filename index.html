@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagenes/logo.png" />
+    <title>Subasta Monitores</title>
+</head>
+<body>
+    <script>
+        function mostrarFormulario(valor){
+ document.getElementById("Contenedor").src=valor
+}
+
+function mostrarFormulario2(valor){
+ document.getElementById("Contenedor2").src=valor
+}
+    </script>
+    <section>
+        <div class="container">
+            <div class="carousel">
+                <input type="radio" name="slides" checked="checked" id="slide-1">
+                <input type="radio" name="slides" id="slide-2">
+                <input type="radio" name="slides" id="slide-3">
+                <input type="radio" name="slides" id="slide-4">
+                <input type="radio" name="slides" id="slide-5">
+                <input type="radio" name="slides" id="slide-6">
+                <input type="radio" name="slides" id="slide-7">
+                <input type="radio" name="slides" id="slide-8">
+                <ul class="carousel__slides">
+                    <li class="carousel__slide">
+                        <figure>
+                            <div>
+                                <img src="imagenes/dell.jpg" alt="">
+                            </div>
+                            <figcaption>
+                                <span class="product-price">
+                                    Puja Actual<br><b>$55.000</b>
+                                  </span><br><br><br>
+                                <h1>DELL 1911</h1>
+                                ● 19 Pulgadas<br>
+                                ● Entrada VGA y DVI-D<br>
+                                ● Sin cable de poder ni VGA<br><br><br><br><br>
+                                <span class="credit">Código: PCA-MA020</span>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="carousel__slide">
+                        <figure>
+                            <div>
+                                <img src="imagenes/hp.jpg" alt="">
+                            </div>
+                            <figcaption>
+                                <span class="product-price">
+                                    Puja Actual<br><b>$55.000</b>
+                                  </span><br><br><br>
+                                <h1>HP L1750</h1>
+                                <select id="formulario" class="form_input" name="formulario" title="Formulario" onchange="mostrarFormulario(this.value)">
+                                    <option value="">Elija una opción</option>
+                                    <option value="lista/hp/1.html">PCA-MA 040</option>
+                                    <option value="lista/hp/2.html">PCA-MA 041</option>
+                                    <option value="lista/hp/3.html">PCA-MA 035</option>
+                                    <option value="lista/hp/4.html">PCA-MA 030</option>
+                                    <option value="lista/hp/5.html">44674544</option>
+                                    <option value="lista/hp/6.html">PCA-MA 039</option>
+                                    <option value="lista/hp/7.html">PCA-MA 032</option>
+                                    <option value="lista/hp/8.html">PCA-MA 031</option>
+                                </select>
+                                
+                                <iframe style="height: 11rem; overflow:scroll; width: 100%" scrolling="no" id="Contenedor" class="contenedor" allowfullscreen="" src="" scrolling="none"></iframe>
+                                                         
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="carousel__slide">
+                        <figure>
+                            <div>
+                                <img src="imagenes/janus.jpg" alt="">
+                            </div>
+                            <figcaption>
+                                <span class="product-price">
+                                    Puja Actual<br><b>$70.000</b>
+                                  </span><br><br><br>
+                                <h1>Janus 1913LE</h1>
+                                ● 18.5 Pulgadas<br>
+                                ● Entrada VGA<br>
+                                ● Sin cable de poder ni VGA<br><br><br><br><br><br>
+                                <span class="credit">Código: PCA-MA 026</span>                            
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="carousel__slide">
+                        <figure>
+                            <div>
+                                <img src="imagenes/lenovo.jpg" alt="">
+                            </div>
+                            <figcaption>
+                                <span class="product-price">
+                                    Puja Actual<br><b>$70.000</b>
+                                  </span><br><br><br>
+                                <h1 style="font-size: 20px;">Lenovo L1900P</h1>
+                                <select id="formulario" class="form_input" name="formulario" title="Formulario" onchange="mostrarFormulario2(this.value)">
+                                    <option value="">Elija una opción</option>
+                                    <option value="lista/lenovo/1.html">PCA-MA 042</option>
+                                    <option value="lista/lenovo/2.html">PCA-MA 008</option>
+                                </select>
+                                
+                                <iframe style="height: 11rem; overflow:scroll; width: 100%" scrolling="no" id="Contenedor2" class="contenedor" allowfullscreen="" src="" scrolling="none"></iframe>                            
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="carousel__slide">
+                        <figure>
+                            <div>
+                                <img src="imagenes/LG.jpg" alt="">
+                            </div>
+                            <figcaption>
+                                <span class="product-price">
+                                    Puja Actual<br><b>$45.000</b>
+                                  </span><br><br><br>
+                                <h1>LG FLATRON E1942</h1>
+                                ● 18.5 pulgadas<br>
+                                ● Entradas VGA<br>
+                                ● Con cable de poder y VGA.<br><br><br><br><br>
+                                <span class="credit">Código: PCA-MA 011</span>                            
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="carousel__slide">
+                        <figure>
+                            <div>
+                                <img src="imagenes/NEC.jpg" alt="">
+                            </div>
+                            <figcaption>
+                                <span class="product-price">
+                                    Puja Actual<br><b>$45.000</b>
+                                  </span><br><br><br>
+                                <h1>NEC PC20020-3DD</h1>
+                                ● 20,1 pulgadas<br>
+                                ● Entradas DVI-I, DVI-D y VGA.<br>
+                                ● Con cable de poder y VGA.<br><br>
+                                <span class="credit">Código: PCA-MA 043</span>                            
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="carousel__slide">
+                        <figure>
+                            <div>
+                                <img src="imagenes/samsung.jpg" alt="">
+                            </div>
+                            <figcaption>
+                                <span class="product-price">
+                                    Puja Actual<br><b>$85.000</b>
+                                  </span><br><br><br>
+                                <h1>SAMSUNG S19C150</h1>
+                                ● 19 pulgadas<br>
+                                ● Entrada VGA<br>
+                                ● Con cable de poder y VGA.<br><br><br><br><br>
+                                <span class="credit">Código: PCA-MA 003</span>                            
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="carousel__slide">
+                        <figure>
+                            <div>
+                                <img src="imagenes/viewsonic.jpg" alt="">
+                            </div>
+                            <figcaption>
+                                <span class="product-price">
+                                    Puja Actual<br><b>$85.000</b>
+                                  </span><br><br><br>
+                                <h1>VIEWSONIC VA1616w</h1>
+                                ● 19 pulgadas<br>
+                                ● Entrada VGA<br>
+                                ● Sin cable de poder y VGA.<br><br><br><br>
+                                <span class="credit">Código: PCA-MA 001</span>                            
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>    
+                <ul class="carousel__thumbnails">
+                    <li>
+                        <label for="slide-1"><img src="imagenes/dell.jpeg" alt=""></label>
+                    </li>
+                    <li>
+                        <label for="slide-2"><img src="imagenes/hp.jpeg" alt=""></label>
+                    </li>
+                    <li>
+                        <label for="slide-3"><img src="imagenes/janus.jpeg" alt=""></label>
+                    </li>
+                    <li>
+                        <label for="slide-4"><img src="imagenes/lenovo.jpeg" alt=""></label>
+                    </li>
+                    <li>
+                        <label for="slide-5"><img src="imagenes/LG.jpeg" alt=""></label>
+                    </li>
+                    <li>
+                        <label for="slide-6"><img src="imagenes/NEC.jpeg" alt=""></label>
+                    </li>
+                    <li>
+                        <label for="slide-7"><img src="imagenes/samsung.jpeg" alt=""></label>
+                    </li>
+                    <li>
+                        <label for="slide-8"><img src="imagenes/ViewSonic.jpeg" alt=""></label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <form class="form" action="https://formspree.io/f/xdojrdld" method="POST">
+        <div class="form_container">
+                <h2 class="form_title">🠻 OFERTAR 🠻</h2>
+                <input type="text" class="form_input" placeholder="Nombre Completo" name="name">
+                <input type="email" class="form_input" placeholder="Correo Electrónico" name="email">
+                
+      <select class="form_input" name="codigo">
+        <option value="selecciona" class="form_input">Código del equipo</option>
+        <option value="PCA-MA020">PCA-MA 020</option>
+        <option value="PCA-MA040">PCA-MA 040</option>
+        <option value="PCA-MA041">PCA-MA 041</option>
+        <option value="PCA-MA035">PCA-MA 035</option>
+        <option value="PCA-MA030">PCA-MA 030</option>
+        <option value="44674544">44674544</option>
+        <option value="PCA-MA039">PCA-MA 039</option>
+        <option value="PCA-MA032">PCA-MA 032</option>
+        <option value="PCA-MA031">PCA-MA 031</option>
+        <option value="PCA-MA026">PCA-MA 026</option>
+        <option value="PCA-MA042">PCA-MA 042</option>
+        <option value="PCA-MA008">PCA-MA 008</option>
+        <option value="PCA-MA011">PCA-MA 011</option>
+        <option value="PCA-MA043">PCA-MA 043</option>
+        <option value="PCA-MA003">PCA-MA 003</option>
+        <option value="PCA-MA001">PCA-MA 001</option>
+      </select>
+                <input type="number" class="form_input" min="30000" max="500000" placeholder="Valor en pesos" name="valor">
+                <div class="form_cta"><input type="reset" value="borrar" class="form_cta--1">
+                <input type="submit" value="enviar" class="form_cta--2"></div>
+        </div>
+    </form>
+    <div id="copyright" class="author">Copyright&copy; 2022 - PCA Ingeniería | J.RTZ</div>
+</body>
+</html>
